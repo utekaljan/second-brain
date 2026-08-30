@@ -1,0 +1,42 @@
+{
+  "name": "second-brain",
+  "version": "0.1.0",
+  "description": "A local-first pipeline for turning writings and conversations into a traceable knowledge graph.",
+  "author": "Jan Utěkal",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "discover": "node dist/second_brain/cli.js discover",
+    "discover:write": "node dist/second_brain/cli.js discover-write",
+    "normalize:writings": "node dist/second_brain/cli.js normalize-writings",
+    "normalize:chats": "node dist/second_brain/cli.js normalize-chats",
+    "normalize:conversations": "node dist/second_brain/cli.js normalize-conversations",
+    "normalize:unified": "node dist/second_brain/cli.js normalize-unified",
+    "normalize:all": "node dist/second_brain/cli.js normalize-all",
+    "demo:normalize": "npm run build && node dist/second_brain/cli.js normalize-all",
+    "master": "npm run build && node dist/second_brain/cli.js master",
+    "nuke": "npm run build && node dist/second_brain/cli.js nuke",
+    "compile:thoughts": "npm run build && node dist/second_brain/cli.js compile-thought-nodes",
+    "consolidate:thoughts": "npm run build && node dist/second_brain/cli.js consolidate-thought-graph",
+    "audit:frames": "npm run build && node dist/second_brain/cli.js audit-document-frames",
+    "audit:conversation-turns": "npm run build && node dist/second_brain/cli.js audit-conversation-turns",
+    "audit:semantic-density": "npm run build && node dist/second_brain/cli.js audit-semantic-density",
+    "audit:real-run": "npm run build && node dist/second_brain/cli.js audit-real-run",
+    "align:frames": "npm run build && node dist/second_brain/cli.js align-writing-frames",
+    "macro-map": "npm run build && node dist/second_brain/cli.js build-thought-macro-map",
+    "render:wiki": "npm run build && node dist/second_brain/cli.js render-wiki",
+    "render:site": "npm run build && node dist/second_brain/cli.js render-site",
+    "export:gpt": "npm run build && node dist/second_brain/cli.js export-gpt",
+    "export:sources": "npm run build && node dist/second_brain/cli.js export-source-archive",
+    "test": "npm run build && node scripts/run-tests.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
+}

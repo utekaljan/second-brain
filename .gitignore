@@ -1,0 +1,29 @@
+node_modules/
+dist/
+output/
+coverage/
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Private archives and historical local tooling are never part of the public repo.
+fixtures/
+repos/
+
+# Keep new personal inputs local unless they are explicitly reviewed and allowlisted.
+input/*
+!input/conversations/
+!input/writings/
+input/conversations/*
+!input/conversations/synthetic-epistemology-consciousness.json
+input/writings/*
+!input/writings/jak-tezke-je-neco-poznat_04_04_2015.txt
+!input/writings/vedomi_05_02_2026.txt

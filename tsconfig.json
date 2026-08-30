@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // Modern Node runtime is available in this repo, so we target current JS.
+    "target": "ES2022",
+    // NodeNext keeps TS module resolution aligned with the ESM package setup.
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    // Source lives in src/ and compiled artifacts go to dist/ for execution.
+    "rootDir": "src",
+    "outDir": "dist",
+    // Keep type checking strict from the start; this project will grow around
+    // text transformation code where loose typing tends to rot quickly.
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

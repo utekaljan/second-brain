@@ -1,0 +1,245 @@
+[
+  {
+    "conversation_id": "synthetic-demo-epistemology-consciousness",
+    "title": "Poznání, modely a vědomí",
+    "create_time": 1704067200,
+    "update_time": 1704067860,
+    "current_node": "node-12",
+    "mapping": {
+      "root": {
+        "id": "root",
+        "message": null,
+        "parent": null,
+        "children": ["node-01"]
+      },
+      "node-01": {
+        "id": "node-01",
+        "message": {
+          "id": "message-01",
+          "author": { "role": "user", "name": null, "metadata": {} },
+          "create_time": 1704067200,
+          "content": {
+            "content_type": "text",
+            "parts": ["Když říkám, že něco vím, neměl bych spíš říkat, že mám model, který zatím obstál?"]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "root",
+        "children": ["node-02"]
+      },
+      "node-02": {
+        "id": "node-02",
+        "message": {
+          "id": "message-02",
+          "author": { "role": "assistant", "name": null, "metadata": {} },
+          "create_time": 1704067260,
+          "content": {
+            "content_type": "text",
+            "parts": ["To je střízlivější formulace. Model může vysvětlovat pozorování a předvídat další, aniž by se tím stal nezpochybnitelnou kopií reality."]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-01",
+        "children": ["node-03"]
+      },
+      "node-03": {
+        "id": "node-03",
+        "message": {
+          "id": "message-03",
+          "author": { "role": "user", "name": null, "metadata": {} },
+          "create_time": 1704067320,
+          "content": {
+            "content_type": "text",
+            "parts": ["Nesklouzává to ale k úplné skepsi? Když jsou všechno jen modely, může být některý z nich opravdu lepší?"]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-02",
+        "children": ["node-04"]
+      },
+      "node-04": {
+        "id": "node-04",
+        "message": {
+          "id": "message-04",
+          "author": { "role": "assistant", "name": null, "metadata": {} },
+          "create_time": 1704067380,
+          "content": {
+            "content_type": "text",
+            "parts": ["Ano. Lepší model může být přesnější, úspornější, odolnější vůči novým datům a schopnější rozlišit, kdy selže. Omyl je možný právě proto, že modely nejsou všechny rovnocenné."]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-03",
+        "children": ["node-05"]
+      },
+      "node-05": {
+        "id": "node-05",
+        "message": {
+          "id": "message-05",
+          "author": { "role": "user", "name": null, "metadata": {} },
+          "create_time": 1704067440,
+          "content": {
+            "content_type": "text",
+            "parts": ["Podobně se někdy popisuje vnímání: mozek něco očekává a smysly průběžně opravují jeho odhad. Je to jen metafora?"]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-04",
+        "children": ["node-06"]
+      },
+      "node-06": {
+        "id": "node-06",
+        "message": {
+          "id": "message-06",
+          "author": { "role": "assistant", "name": null, "metadata": {} },
+          "create_time": 1704067500,
+          "content": {
+            "content_type": "text",
+            "parts": ["Prediktivní zpracování je vážný výzkumný rámec, ale jeho konkrétní verze se liší. Užitečné je chápat vnímání jako spojení vstupu a očekávání; přehnané by bylo tvrdit, že tím už máme úplnou teorii mysli."]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-05",
+        "children": ["node-07"]
+      },
+      "node-07": {
+        "id": "node-07",
+        "message": {
+          "id": "message-07",
+          "author": { "role": "user", "name": null, "metadata": {} },
+          "create_time": 1704067560,
+          "content": {
+            "content_type": "text",
+            "parts": ["A patří do toho i tělo? Hlad nebo bolest přece mění nejen rozhodnutí, ale i to, jak svět vypadá."]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-06",
+        "children": ["node-08"]
+      },
+      "node-08": {
+        "id": "node-08",
+        "message": {
+          "id": "message-08",
+          "author": { "role": "assistant", "name": null, "metadata": {} },
+          "create_time": 1704067620,
+          "content": {
+            "content_type": "text",
+            "parts": ["Právě proto je důležitá vtělenost. Model nepopisuje svět pro nezúčastněného pozorovatele, ale pro organismus s potřebami, historií a možnostmi jednání."]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-07",
+        "children": ["node-09"]
+      },
+      "node-09": {
+        "id": "node-09",
+        "message": {
+          "id": "message-09",
+          "author": { "role": "user", "name": null, "metadata": {} },
+          "create_time": 1704067680,
+          "content": {
+            "content_type": "text",
+            "parts": ["Když takto popíšeme všechny funkce, vysvětlili jsme tím i to, proč je nějaké něco prožívat?"]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-08",
+        "children": ["node-10"]
+      },
+      "node-10": {
+        "id": "node-10",
+        "message": {
+          "id": "message-10",
+          "author": { "role": "assistant", "name": null, "metadata": {} },
+          "create_time": 1704067740,
+          "content": {
+            "content_type": "text",
+            "parts": ["Ne nutně. Funkční popis může ukázat, jak systém rozlišuje, pamatuje si a jedná, ale přechod od těchto procesů k subjektivní zkušenosti zůstává otevřeným problémem."]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-09",
+        "children": ["node-11"]
+      },
+      "node-11": {
+        "id": "node-11",
+        "message": {
+          "id": "message-11",
+          "author": { "role": "user", "name": null, "metadata": {} },
+          "create_time": 1704067800,
+          "content": {
+            "content_type": "text",
+            "parts": ["Takže stejná zdrženlivost platí pro vědomí i pro poznání: nezaměnit dobrý model za definitivní odpověď?"]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-10",
+        "children": ["node-12"]
+      },
+      "node-12": {
+        "id": "node-12",
+        "message": {
+          "id": "message-12",
+          "author": { "role": "assistant", "name": null, "metadata": {} },
+          "create_time": 1704067860,
+          "content": {
+            "content_type": "text",
+            "parts": ["Přesně. Skepticismus tu není rezignace, ale disciplína: říct, co model vysvětluje, jak jej lze zpochybnit a kde zatím končí jeho dosah."]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {},
+          "recipient": "all"
+        },
+        "parent": "node-11",
+        "children": []
+      }
+    }
+  }
+]
